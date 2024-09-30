@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       {" "}
-      <h1>hellooo there plsss!!</h1>
+      <h1>hellooo there plssss!!</h1>
       <hr />
       <MarketingApp />
     </div>
