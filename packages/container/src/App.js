@@ -13,7 +13,7 @@ const generateClassName = createGenerateClassName({
 
 function App() {
   return (
-    <StyleProvider generateClassName={generateClassName}>
+    <StylesProvider generateClassName={generateClassName}>
       <BrowserRouter>
         <div>
           {" "}
@@ -21,7 +21,7 @@ function App() {
           <MarketingApp />
         </div>
       </BrowserRouter>
-    </StyleProvider>
+    </StylesProvider>
   );
 }
 
