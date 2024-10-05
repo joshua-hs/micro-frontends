@@ -8,9 +8,6 @@ import {
 import SignIn from "./components/Signin";
 import SignUp from "./components/Signup";
 
-// import Landing from "./components/Landing";
-// import Pricing from "./components/Pricing";
-
 const generateClassName = createGenerateClassName({
   productionPrefix: "au",
 });
